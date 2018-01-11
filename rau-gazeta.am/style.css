@@ -1,0 +1,533 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #464646;
+	font-size: 12px;
+}
+
+.wrapper {
+	width: 980px;
+
+	margin: 0 auto;
+	background-color: #FFF;
+	box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5);
+}
+
+.header-container {
+	width: 980px;
+	height: 104px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.logo a {
+	color: #000;
+	text-decoration: none;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.rau {
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.social {
+	float: right;
+	padding-top: 17px;
+	padding-right: 5px;
+	width: 147px;
+}
+
+.fb {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -0px 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+.fb:hover {
+	background: url(img/social2.png);
+	background-position: -0px 0px;
+}
+
+.tw {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -16px 0px;
+	float: left;	
+	margin-right: 5px;
+}
+
+.tw:hover {
+	background: url(img/social2.png);
+	background-position: -16px 0px;
+}
+
+.vk {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -32px 0px;
+	float: left;	
+	margin-right: 5px;
+}
+
+.vk:hover {
+	background: url(img/social2.png);
+	background-position: -32px 0px;
+}
+
+.in {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -48px 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+.in:hover {
+	background: url(img/social2.png);
+	background-position: -48px 0px;
+}
+
+.lj {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -64px 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+.lj:hover {
+	background: url(img/social2.png);
+	background-position: -64px 0px;
+}
+
+.g {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -80px 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+.g:hover {
+	background: url(img/social2.png);
+	background-position: -80px 0px;
+}
+
+.rss {
+	width: 16px;
+	height: 16px;
+	background: url(img/social.png);
+	background-position: -112px 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+.rss:hover {
+	background: url(img/social2.png);
+	background-position: -112px 0px;
+}
+
+.archive{
+	margin-top: 50px;
+	float: right;
+}
+
+.archive a {
+	color: #BE1A1A;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+form {
+	position: relative;
+	top: 50px;
+	left: 400px;
+	max-width: 600px;
+}
+
+input {
+	float: left;
+	width: 130px;
+	height: 25px;
+}
+
+button {
+	background-image: url(img/search.png);
+	background-repeat: no-repeat;
+	width:25px;
+	height:25px;
+	background-color: #696969;
+	background-position: center;
+	border: none;
+	position: absolute;
+	margin-left: 5px;
+}
+
+button:hover {
+	background-color: #357ae8;
+}
+
+.redline {
+	position: relative;
+	top: 90px;
+	height: 20px;
+	background: #BE1A1A;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.menu-container {
+	width: 970px;
+	margin: 0 auto;
+	margin-top: 6px;
+	height: 40px;
+	background: #6E6E6E;
+}
+
+.menu-container ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.menu-container ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 3px 10px;
+	line-height: 40px;
+}
+
+.menu-container ul li a:hover {
+	color: #be1a1b;
+	text-shadow: 0 0 0.1em #FFF, 0 0 0.1em #FFF;
+}
+
+.main-container {
+	width: 660px;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.release a {
+	color: #354f7b;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.release a:hover {
+	color: #0099ff;
+}
+
+.main-container h1 {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.main-container p {
+	padding-top: 25px;
+	padding-left: 5px;
+	text-align: justify;
+}
+
+.youtube {
+	margin-right: 10px; 
+	float: left;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+.question {
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.answer {
+	text-align: justify;
+	margin: 10px 0;
+}
+
+.jurnalist {
+	text-align: right;
+	float: right;
+	padding-top: 150px;
+}
+
+.socialbig {
+width: 252px;
+clear: both;
+margin: 0 auto;
+padding-top: 30px;
+}
+
+.fb-big {
+	background: url(img/socialbig.png);
+	background-position: -0px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.fb-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -0px 0px;
+}
+
+.tw-big {
+	background: url(img/socialbig.png);
+	background-position: -32px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.tw-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -32px 0px;
+}
+
+.vk-big {
+	background: url(img/socialbig.png);
+	background-position: -64px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.vk-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -64px 0px;
+}
+
+.in-big {
+	background: url(img/socialbig.png);
+	background-position: -96px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.in-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -96px 0px;
+}
+
+.lj-big {
+	background: url(img/socialbig.png);
+	background-position: -128px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.lj-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -128px 0px;
+}
+
+.g-big {
+	background: url(img/socialbig.png);
+	background-position: -160px 0px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.g-big:hover {
+	background: url(img/socialbig2.png);
+	background-position: -160px 0px;
+}
+
+.main-left {
+	float: right;
+	width: 300px;
+	margin-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.mikrofon {
+	height: 27px;
+	background: #616161;
+	color: #FFF;
+}
+
+.mikrofon p {
+	text-align: center;
+	line-height: 27px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.news {
+	padding-top: 20px;
+	text-align: center;	
+	border-bottom: 3px solid #636363;
+}
+
+.news a {
+	color: #BE1A1A;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+.news-content {
+	max-height: 280px;
+	overflow-y: scroll;
+	border-bottom: 1px solid #A7A7A7;
+}
+
+.news-block {
+	padding-top: 10px;
+	padding-right: 5px;
+	margin: 5px 8px 5px 5px;
+}
+
+.block-pic {
+	float: right;
+	margin-left: 10px;
+}
+
+.block-pic img {
+	width: 45px;
+}
+
+.block-title {
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2c2c2c;
+}
+
+.block-text {
+	font-size: 11px;
+	color: #333333;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.akvarium {
+	padding-top: 20px;
+	text-align: center;	
+	border-bottom: 3px solid #BE1A1A;
+}
+
+.akvarium p {
+	color: black;
+	text-align: center;
+	line-height: 27px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.akvarium-block {
+	padding-top: 10px;
+	padding-right: 5px;
+	margin: 5px 8px 5px 5px;
+}
+
+.akvarium-pic {
+	float: right;
+	margin-left: 10px;
+}
+
+.akvarium-pic img {
+	width: 45px;
+}
+
+.akvarium-title {
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2c2c2c;
+}
+
+.akvarium-text {
+	font-size: 11px;
+	color: #333333;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.fishka p {
+	color: black;
+	text-align: center;
+	line-height: 27px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border-bottom: 3px solid #BE1A1A;
+}
+
+.fishka img {
+	width: 300px;
+	padding-top: 2px;
+}
+
+.footer {
+	background: #8B8B8B;
+	border-top: 1px solid #666;
+	clear: both;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	height: 55px;
+	line-height: 30px;
+	margin-top: 5px;
+	padding: 5px 5px 5px 20px;
+}
+
+.footer span {
+	padding-bottom: 10px;
+}
+
+.footer a {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}

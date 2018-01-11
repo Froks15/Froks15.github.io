@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 70px;
+	background: #3C8DC5;
+}
+
+#logo {
+	float: left;
+	padding-top: 20px;
+}
+
+#nav {
+	float: left;
+	display: block;
+	
+}
+
+#nav ul li {
+	
+	display: inline-block;
+	list-style-type: none;
+	
+}
+
+#nav a {
+	float: left;
+	color: #fff;
+	padding: 0 15px;
+	margin: 0 1px;
+	line-height: 72px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #006699;
+}
+
+#phone {
+
+	display: inline-block;
+    height: 70px;
+    font-size: 16px;
+    color: #FAFAFA;
+    font-weight: bold;
+    padding: 20px 0 0 50px;
+    margin-left: 20px;
+    background: url(img/phone.png) left center no-repeat;
+}
+
+#wrap {
+	margin-top: 15px;
+	border: 1px solid #EEEEEE;
+	border-radius: 4px;
+	
+}
+
+#banner {
+	padding: 30px 30px;
+}
+
+#banner img {
+	border-radius: 4px;
+}
+
+#slide a {
+	padding-left: 30px;
+}
+
+#lala {
+	margin: 40px 0 10px 20px;
+	
+}
+
+#niz a {
+	font-size: 12px;
+}
+

@@ -1,0 +1,50 @@
+@media screen and (max-width: 991px) {
+	.work {
+		padding-bottom: 30px;	 
+		padding-top: 40px;
+	}
+	.man-last {
+		padding-bottom: 0px;
+	}
+	
+	.gallery-img:last-child {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.welcome {
+		padding-top: 80px;
+	}
+
+	.search {
+		padding-bottom: 100px;
+		padding-top: 50px;
+	}
+
+	.search input {
+		width: 450px;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.row-header {
+		padding-top: 20px;
+	}
+	#nav a {
+		display: block;
+	}
+
+	#submit {
+		right: 60px;
+	}
+
+	.search input {
+		width: 245px;
+	}
+
+	.search input[type="text"] {
+		padding: 25px 68px;
+	}
+}

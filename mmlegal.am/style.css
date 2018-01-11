@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #313131;
+	background: url(img/bg.png) top repeat-x #fff;
+}
+
+a {
+	color: #313131;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 20px;
+margin: 0px 0px 15px 0px;
+font-weight: normal;
+}
+
+
+
+.menu {
+	width: 862px;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline;
+}
+
+.menu ul li a {
+display: inline-block;
+margin: 7px 0px 0px 0px;
+padding: 10px 20px 5px 5px;
+color: #414141;
+font-weight: bold;
+}
+
+.menu ul li a:hover {
+display: inline-block;
+margin: 7px 0px 0px 0px;
+padding: 10px 20px 5px 5px;
+color: #FF6041;
+font-weight: bold;
+text-shadow: 1px 1px #d5d2d2;
+}
+
+.lang a {
+	color: #787878;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.lang a:hover {
+	color: #FF6041;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.main p {
+	text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}
+
+.main-bottom {
+	padding-bottom: 50px;
+}
+
+.main-bottom img{
+	border:5px solid #D1CFCF;
+}
+
+.main-bottom h3 {
+	font-size: 18px;
+	color: #313131;
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+}
+
+.main-bottom a {
+	text-decoration: underline;
+	color: #710a0a;
+	line-height: 25px;
+	font-size: 11px;
+}
+
+.main-bottom a:hover {
+	text-decoration: none;
+	color: #710a0a;
+	line-height: 25px;
+	font-size: 11px;
+}
+
+.footer {
+	color: #9e9e9e;
+}
+
+.footer a{
+	color: #9e9e9e;
+}
+
+.footer a:hover{
+	color: #FF6041;
+	text-decoration: none;
+}
+
+.footer ul li {
+	list-style: none;
+}
+
+.footer ul li a {
+	text-decoration: underline;
+}
+

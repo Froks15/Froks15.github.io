@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	background: url(img/bg.png) top repeat-x;
+}
+
+#main {
+	width: 970px;
+	margin: 0 auto;
+}
+
+
+#header {
+	height: 120px;
+	margin-top: 15px;
+	border-radius: 22px;
+	background-color: #003F85;
+}
+
+.logo {
+	padding: 23px 0 0 30px;
+	float: left;
+	
+}
+
+.lang {
+	padding-top: 78px;
+	padding-left: 300px;
+	display: inline-block;
+	float: left;
+}
+
+
+
+.lang li {
+	list-style-type: none;
+	display: inline;
+}
+
+.lang a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 2px;
+}
+
+.lang a.selected {
+	color: #FFB000;
+}
+
+
+.lang a:hover {
+text-decoration: underline;
+}
+
+input {height: 20px;}
+input[name="q"] {
+	padding-right: 1.8em;
+	border: none;
+	border-radius: 2px;
+}
+input[type="image"] {
+	left: -1.8em;
+	position: relative;
+	vertical-align: middle;
+	width: 18px;
+}
+
+.ser {
+	padding-top: 73px;
+	float: right;
+}
+
+#nav {
+	float: left;
+	margin-top: 15px;
+	width: 240px;
+	height: 300px;
+	background-color: #BDCCC9;
+	border-radius: 20px 20px 20px 0px;
+
+}
+
+#menu li  {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #003C7F;
+	list-style-type: none;
+	text-shadow: inherit;
+	font-weight: bold;
+	display: block;
+    width: auto;
+    line-height: 28px;
+}
+
+#menu {
+	padding-top: 20px;	
+}
+
+#menu a {
+	color: #999999;
+	padding-left: 23px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	background-color: #9BB3AE;
+	color: #fff;
+}
+
+#menu hr {
+border: none;
+background-color: #A5BAB6;
+height: 1px;
+}
+
+#content {
+	max-width: 730px;
+	width: 720px;
+	height: 415px;
+	min-height: 300px;
+	margin: 15px 0 15px 10px;
+	background-color: #F4F4F4;
+	border-radius: 20px;
+	float: left;
+    font-size: 13px;
+}
+
+h1 {
+	margin: 33px 0 13px 20px;
+}
+
+#content img {
+	padding: 0 10px 0 20px;
+	float: left;
+}
+
+.ot {
+	padding-left: 20px;
+	padding-right: 25px;
+}
+
+.r {
+	float: right;
+	padding-right: 25px;
+}
+
+#footer {
+	height: 40px;
+	width: auto;
+	background-color: #D6E0E0;
+	clear: both;
+	border-radius: 0 20px 0 0;
+	border-bottom: 1px dotted #fff;
+}
+
+#footer img {
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+#footer p {
+	float: left;
+	padding-top: 13px;
+	padding-left: 22px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #999999;
+}
+
+#footer2 {
+	height: 50px;
+	width: auto;
+	background-color: #D6E0E0;
+	clear: both;
+	border-radius: 0 0 20px 20px;
+}
+
+#footer2 p {
+	font-family: Arial;
+	font-size: 11px;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.niz {
+	font-family: Arial;
+	font-size: 11px;
+    font-style: italic;
+	padding-left: 855px;
+}
