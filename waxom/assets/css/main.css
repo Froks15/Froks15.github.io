@@ -38,22 +38,22 @@ body {
 
 .header {
 	height: 100vh;
-	min-height: 1000px;
+	min-height: 700px;
 	background-image: url(../images/headerBG.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding-top: 40px;
 }
 
 .header .container {
 	display: flex;
 	height: inherit;
-	min-height: 1000px;
+	min-height: 700px;
 	flex-direction: column;
 }
 
 .header-nav {
+	margin-top: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
