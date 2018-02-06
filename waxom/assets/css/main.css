@@ -20,6 +20,7 @@
 }
 
 body {
+	background-color: #fff;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -30,6 +31,9 @@ body {
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
 
 
 /* 
@@ -46,7 +50,7 @@ body {
 	padding-top: 40px;
 }
 
-.header .container {
+.header-container {
 	display: flex;
 	height: inherit;
 	min-height: 1000px;
@@ -167,8 +171,10 @@ body {
 }
 
 .services-item {
+	position: relative;
 	text-align: center;
 	margin-right: 30px;
+	padding-bottom: 30px;
 }
 .services-item:hover {
 	cursor: pointer;
@@ -205,10 +211,13 @@ body {
 
 .services-item__line {
 	transition: .6s;
-	margin: 30px auto 0 auto;
 	width: 70px;
 	height: 3px;
 	background-color: #f1eee9;
+	position: absolute;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
 }
 .services-item:hover .services-item__line{
 	background-color: #c7b299;

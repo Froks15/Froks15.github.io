@@ -1,0 +1,368 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1230px) {
+	.container {
+		width: 960px;
+	}
+	
+	.header {
+		min-height: 500px;
+	}
+
+	.header-container {
+		min-height: 500px;
+	}
+
+	.logo {
+		width: 100px;
+	}
+
+	.menu__item {
+		margin-right: 15px;
+	}
+	
+	.tools__search, .tools__cart {
+		width: 15px;
+	}
+
+	.last-projects-project {
+		width: 280px;
+	}
+
+	.video video {
+		height: 500px;
+	}
+	
+	.for-mobile {
+		padding-top: 40px;
+	}
+
+	.iphone {
+		width: 320px;
+		height: 400px;
+		margin-top: -30px;
+	}
+
+	.for-mobile__title {
+		margin-top: 20px;
+	}
+
+	.counters-item__count {
+		font-size: 38px;
+		margin-top: 20px;
+	}
+
+	.recent-posts-item {
+		width: 370px;
+	}
+
+	.partners-item {
+		max-width: 150px;
+	}
+
+	.partners {
+		padding: 70px 0;
+	}
+
+	.footer-logo {
+		width: 150px;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 760px;
+	}
+	
+	.header {
+		min-height: 400px;
+	}
+
+	.header-container {
+		min-height: 400px;
+	}
+
+	.header-nav {
+		flex-direction: column;
+	}
+	
+	.logo {
+		width: 150px;
+	}
+
+	.menu {
+		margin-top: 10px;
+	}
+
+	.tools {
+		margin-top: 10px;
+	}
+
+	.menu__item {
+		margin-right: 10px;
+    	font-size: 14px;
+	}
+	
+	.tools__search, .tools__cart {
+		width: 15px;
+	}
+
+	.tag-line__pre-title {
+		font-size: 32px;
+	}
+
+	.tag-line__title {
+		font-size: 48px;
+	}
+
+	.tag-line__description {
+		margin-top: 15px;
+	}
+
+	.tag-line__start {
+		margin: 35px auto 0 auto;
+		font-size: 12px;
+	}
+
+	.services {
+		padding: 60px 0;
+	}
+
+	.services-item {
+		margin-right: 15px;
+		padding-bottom: 20px;
+	}
+
+	.services-item__title {
+		font-size: 18px;
+	}
+
+	.services-item__description {
+		font-size: 13px;
+	}
+
+	.last-projects-project {
+		width: 215px;
+	}
+
+	.video video {
+		height: 400px;
+	}
+	
+	.for-mobile {
+		padding-top: 40px;
+	}
+
+	.iphone {
+		width: 320px;
+		height: 400px;
+		margin-top: -30px;
+	}
+
+	.for-mobile__title {
+		margin-top: 20px;
+	}
+
+	.counters-item__count {
+		font-size: 38px;
+		margin-top: 20px;
+	}
+
+	.recent-posts-item {
+		width: 370px;
+	}
+
+	.partners-item {
+		max-width: 150px;
+	}
+
+	.partners {
+		padding: 70px 0;
+	}
+
+	.footer-container {
+		flex-direction: column;
+	}
+
+	.footer-logo {
+		width: 150px;
+		margin-top: 10px;
+	}
+
+	.footer-author {
+		margin-top: 10px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
+	
+	.header {
+		min-height: 450px;
+	}
+
+	.header-container {
+		min-height: 450px;
+	}
+
+	.header-nav {
+		flex-direction: column;
+	}
+	
+	.logo {
+		width: 100px;
+	}
+
+	.menu {
+		margin-top: 10px;
+	}
+
+	.tools {
+		margin-top: 10px;
+	}
+
+	.menu__item {
+		margin-right: 10px;
+    	font-size: 14px;
+	}
+	
+	.tools__search, .tools__cart {
+		width: 15px;
+	}
+
+	.tag-line__pre-title {
+		font-size: 28px;
+	}
+
+	.tag-line__title {
+		font-size: 36px;
+	}
+
+	.tag-line__description {
+		margin-top: 15px;
+	}
+
+	.tag-line__start {
+		margin: 30px auto 0 auto;
+		font-size: 12px;
+	}
+
+	.services {
+		padding: 30px 0;
+	}
+
+	.services-items {
+		flex-wrap: wrap;
+	}
+
+	.services-item {
+		margin-right: 15px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.services-item__title {
+		font-size: 18px;
+	}
+
+	.services-item__description {
+		font-size: 13px;
+	}
+
+	.screens__title {
+		margin-top: 40px;
+	}
+
+	.last-projects-all {
+		margin-top: 0;
+	}
+
+	.last-projects-project {
+		width: 50%;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+	.last-projects-filters__filter {
+		margin-bottom: 10px;
+	}
+
+	.video video {
+		height: 400px;
+	}
+	
+	.for-mobile {
+		padding: 40px 0;
+	}
+
+	.iphone {
+		display: none;
+	}
+
+	.for-mobile__title {
+		margin-top: 20px;
+	}
+
+	.counters-all {
+		flex-wrap: wrap;
+	    justify-content: flex-start;
+	}
+
+	.counters-item__line {
+		margin: 10px auto 0 auto;
+	}
+
+	.counters-item {
+		width: 50%;
+		margin-bottom: 40px;
+	}
+
+	.counters-item__count {
+		font-size: 38px;
+		margin-top: 20px;
+	}
+
+	.recent-posts-item {
+		width: 370px;
+	}
+
+	.partners-item {
+		max-width: 150px;
+		margin-bottom: 20px;
+	}
+
+	.partners {
+		padding: 70px 0;
+	}
+
+	.partners-all {
+		flex-wrap: wrap;
+	}
+
+	.footer-container {
+		flex-direction: column;
+	}
+
+	.footer-logo {
+		width: 150px;
+		margin-top: 10px;
+	}
+
+	.footer-author {
+		margin-top: 10px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+}
