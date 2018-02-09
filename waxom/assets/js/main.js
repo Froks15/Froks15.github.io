@@ -48,71 +48,6 @@ function projectsCategory(e) {
 }
 projectsCategory();
 
-function postsSlider(e) {
-	var box = document.querySelectorAll(".recent-posts-item");
-	var container = document.querySelector(".recent-posts-all");
-	var arrowLeft = document.querySelector(".recent-posts-arrows__button_left");
-	var arrowRight = document.querySelector(".recent-posts-arrows__button_right");
-
-	arrowLeft.addEventListener("click", function(){
-		nextSlide();
-	});
-
-	arrowRight.addEventListener("click", function(){
-		prevSlide();
-	});
-
-
-	var current = 0;
-	var boxWidth = box[0].offsetWidth + 18;
-
-	function prevSlide() {
-	    var boxs = document.querySelector(".recent-posts-boxs");
-	    	if(current >= box.length/2){
-	    		limitRight();
-	      		return;
-	      	}
-	    	current++;
-	    	boxs.style.marginLeft = current * -boxWidth + 'px';
-	      console.log(current)
-	}
-
-	function nextSlide() {    
-	    var boxs = document.querySelector(".recent-posts-boxs");
-	    	if(current == 0){
-	    		limitLeft();
-	    	    return;
-	    	} 
-	    	current--;
-	    	boxs.style.marginLeft = current * -boxWidth + 'px';
-	      console.log(current)
-	}
-
-	function limitLeft() {
-		var boxs = document.querySelector(".recent-posts-boxs");
-		boxs.style.marginLeft = boxWidth + 'px';
-		setTimeout(function(){
-			boxs.style.marginLeft = 0 + 'px';
-		}, 500)
-	}
-
-	function limitRight() {
-		var boxs = document.querySelector(".recent-posts-boxs");
-		boxs.style.marginLeft = parseInt(boxs.style.marginLeft) + -boxWidth + 'px';
-		setTimeout(function(){
-			boxs.style.marginLeft = parseInt(boxs.style.marginLeft) - -boxWidth + 'px';
-		}, 500)
-	}
-
-	var containerChild = container.childNodes;
-
-	for (var i = 0; i < containerChild.length; i++) {
-		containerChild[i].remove();
-	}
-
-}
-postsSlider();
-
 function animationIphone() {
 	var mobile = document.querySelector(".for-mobile");
 	var iphone = document.querySelector(".iphone img");
@@ -128,3 +63,19 @@ function animationIphone() {
 	window.addEventListener("scroll", checkMobile);
 }
 animationIphone();
+
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 3,
+  spaceBetween: 25,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.recent-posts-arrows__button_right',
+    prevEl: '.recent-posts-arrows__button_left',
+  },
+});
