@@ -6,21 +6,42 @@
 	<style type="text/css">
 		.container {
 			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.item {
+			margin: 10px;
+			max-width: 600px;
+			position: relative;
+		}
+		.item:hover:before {
+			opacity: 0;
+		}
+		.item:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #000;
+			opacity: .6;
+			transition: .7s;
+		}
+		.item img {
+			max-width: 100%;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<a class="item" href="/ca/">Colorib App</a>
-		<a class="item" href="/dup/">Dup</a>
-		<a class="item" href="/alonzo/">Alonzo</a>
-		<a class="item" href="/waxom/">Waxom</a>
-		<a class="item" href="/kvadroteka/">Kvadroteka</a>
-		<a class="item" href="/dm.ru/">dm</a>
-		<a class="item" href="/barbershop.ru/">barbershop</a>
+		<a class="item" href="/ca/"><img src="img/colorlib.jpg"></a>
+		<a class="item" href="/dup/"><img src="img/dup.jpg"></a>
+		<a class="item" href="/alonzo/"><img src="img/alonzo.jpg"></a>
+		<a class="item" href="/waxom/"><img src="img/waxom.jpg"></a>
+		<a class="item" href="/kvadroteka/"><img src="img/kvadroteka.jpg"></a>
+		<a class="item" href="/dm.ru/"><img src="img/dm.jpg"></a>
+		<a class="item" href="/barbershop.ru/"><img src="img/barbershop.jpg"></a>
 	</div>
 </body>
 </html>
