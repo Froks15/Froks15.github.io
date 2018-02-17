@@ -23,6 +23,10 @@
     src: url(../fonts/MullerLight.ttf);
 }
 
+img {
+	align-self: center;
+}
+
 .container {
 	width: 1200px;
 	margin: 0 auto;
